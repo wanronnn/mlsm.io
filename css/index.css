@@ -1,0 +1,593 @@
+@charset "utf-8";
+/*通栏的开始*/
+.top {
+    height: 26px;
+    border-bottom: 1px solid #D8D8D8;
+    background-color: #F7F7F7;
+}
+.top_top {
+    width: 970px;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+.top .text {
+    float: left;
+    height: 26px;
+    font-size: 12px;
+    color: #444444;
+}
+.top ul {
+    float: right;
+}
+.top li {
+    float: left;
+    padding: 0 6px 0 5px;
+}
+.top a {
+    font-size: 12px;
+    color: #666666;
+}
+.top img {
+    vertical-align: middle;
+}
+/*通栏的结束*/
+/*搜索栏的开始*/
+.searchBar {
+    width: 970px;   
+    height: 98px;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+.searchBar h1 {
+    float: left;
+    width: 220px;
+    height: 98px;
+    background: url("../image/meilan.png"); 
+}
+.searchBar a {
+    display: block;
+    width: 220px;
+    height: 98px;
+    text-indent: -22222em;
+}
+.search {
+    width: 528px;
+    float: right;
+    height: 40px;
+    border: 1px solid #c9c9c9;
+    margin-top: 29px;
+}
+.search .text {
+    float: left;
+    width: 415px;
+    height: 28px;
+    border: 1px solid  #c9c9c9;
+    border-right: 0 none;
+    margin-top: 5px;
+    margin-left: 4px;
+    padding-left: 4px;
+    font-size: 12px;
+
+}
+.search .searchBtn {
+    float: left;
+    width: 99px;
+    height: 30px;
+    background: url("../image/search.png");
+    margin-top: 5px;
+}
+
+/*搜索栏的结束*/
+/*导航栏开始*/
+.nav {
+    width: 970px;
+    height: 25px;
+    border-bottom: 2px solid #0266A3;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+.nav li {
+    float: left;
+    padding: 0 16px 0 14px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 20px;
+}
+.nav a{
+    color: #306bae;
+}
+.nav li:hover {
+    background-color: #0266a3;
+     line-height: 24px;
+}
+.nav li:hover a {
+    color: #ffffff;
+}
+/*导航栏结束*/
+/*头部开始*/
+.header {
+    width: 970px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+.header_left {
+    width: 200px;
+    height: 210px;
+    float: left;
+    background-color: #EBF0F6;
+}
+.header_left h4 {
+    /*font-weight: bold;*/
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    background-color: #0266A3;
+    padding-left: 20px;
+}
+.header_left ul {
+    margin-top: 6px;
+}
+.header_left li {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 39px;
+
+}
+.header_left .one {
+    background: url("../image/header_left01.png") no-repeat 9px 6px;
+}
+.header_left .two {
+    background: url("../image/header_left02.png") no-repeat 9px 7px;
+}
+.header_left .three {
+    background: url("../image/header_left03.png") no-repeat 7px 5px;
+}
+.header_left .four {
+    background: url("../image/header_left04.png") no-repeat 12px 6px;
+}
+.header_left .five {
+    background: url("../image/header_left05.png") no-repeat 9px 5px;
+}
+.header_left .six {
+    background: url("../image/header_left06.png") no-repeat 9px 5px;
+}
+
+.header_left a {
+    color: #606060;
+}
+.header_center {
+    width: 520px;
+    height: 210px;
+    float: left;
+    margin-left: 11px;
+    background: url("../image/header_center.png");
+    /*background-color: green;*/
+}
+.header_right {
+    width: 230px;
+    height: 210px;
+    float: right;
+    /*background-color: blue;*/
+}
+.header_r_top {
+    height: 93px;
+    border: 1px solid #e0e6f0;
+    background-color: #f7faff;
+}
+.header_r_t_top {
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 18px;
+    color: #666666;
+
+}
+.header_r_t_bottom {
+    margin-top: 13px;
+}
+.header_r_t_bottom img {
+    float: left;
+    margin: 0 10px;
+}
+.header_r_t_bottom .text {
+    font-size: 12px;
+    color: #666666;
+    line-height: 22px;
+    padding-right: 12px;
+}
+.header_r_t_bottom a {
+    color: #444444;
+
+}
+.header_r_bottom {
+
+    height: 92px;
+    background-color: #f7f7f7;
+    margin-top: 21px;
+    text-align: center;
+}
+.header_r_b_top {
+    height: 32px;
+    line-height: 40px;
+    font-size: 16px;
+
+    color: #999999;
+    font-family: "微软雅黑";
+
+}
+.header_r_b_center {
+    height: 30px;
+    line-height: 30px;
+    color: #3f9ce0;
+    font-weight: bold;
+    background: url("../image/header_r_b_center.png") no-repeat 34px 5px;
+
+}
+
+/*头部结束*/
+/*建筑材料的开始*/
+.partHead {
+    height: 34px;
+    line-height: 34px;
+    width: 948px;
+
+    margin: 0 auto;
+    margin-top: 14px;
+    border-top: 2px solid #c3dee4;
+    background-color: #ecf1f7;
+    padding-left: 22px;
+}
+.build {
+    height: 346px;
+    width: 970px;
+    margin:0 auto;
+    margin-top: 11px;
+    /*background-color: red;*/
+
+}
+.build_left {
+    height: 344px;
+    width: 727px;
+    float: left;
+    border: 1px solid #d8d8d8;
+}
+.bulid_right {
+    height: 344px; 
+    width: 228px;
+    float: right;
+    border: 1px solid #d8d8d8;
+}
+.build_r_top {
+    height: 28px;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: #fcfcfc;
+    font-size: 12px;
+    padding-left: 15px;
+    color: #4e4e4e;
+    line-height: 28px;
+}
+.bulid_right ul {
+    margin-top: 11px;
+}
+.bulid_right li {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    padding-left: 26px;
+    background: url("../image/build_r_ul.png") no-repeat 10px 9px;
+
+}
+.bulid_right a {
+    color: #444444;
+}
+.build_l_top {
+    height: 172px;
+
+}
+.build_left .line {
+    width: 719px;
+    border-top: 1px solid #eeeeee;
+    margin: 0 auto;
+}
+.build_l_bottom {
+    height: 171px;
+}
+.product {
+    width: 324px;
+    margin-left: 26px;
+    margin-top: 15px;
+    float: left;
+    /*height: 150px;
+    background-color: red;*/
+
+}
+.product_top {
+    height: 102px;
+}
+.product_t_left {
+    height: 100px;
+    width: 97px;
+    border: 1px solid #cacaca;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+}
+.product_t_left img {
+    vertical-align: middle;
+}
+.product_t_right {
+    width: 225px;
+    height: 102px;
+    /*background-color: red;*/
+    float: left;
+}
+.product_nanme {
+    height: 38px;
+    line-height: 36px;
+    padding-left: 10px;
+
+}
+.product_msg {
+    font-size: 12px;
+    color: #863e01;
+    padding-left: 15px;
+}
+.price_now {
+    color: #c50934;
+    font-size: 13px;
+    font-weight: bold;
+}
+.price_old {
+    font-size: 10px;
+    color: #555555;
+    text-decoration: line-through;
+}
+.product_t_right .price{
+    margin-top: 20px;
+    margin-left: 11px;
+}
+.product_bottom {
+    margin-top: 15px;
+
+}
+.product_bottom .buyBtn {
+    width: 98px;
+    height: 26px;
+    background: url("../image/buyBtn.png");
+    vertical-align: bottom;
+}
+.product_bottom span {
+    font-size: 12px;
+}
+.product_bottom .number{
+    color: #c50934;
+}
+/*建筑材料结束*/
+/*儿童安全座椅的开始*/
+.children {
+    width: 970px;
+    height: 327px;
+    margin: 0 auto;
+    margin-top: 11px;
+    /*background-color: red;*/
+}
+.children_left {
+    width: 724px;
+    height: 327px;
+    float: left;
+    /*background-color: red;*/
+}
+.children_right {
+    width: 220px;
+    height: 327px;
+    float: right;
+    /*background-color: yellow;*/
+}
+.children_r_top {
+    width: 219px;
+    height: 128px;
+    border: 1px solid #cbcbcb;
+}
+.children_r_bottom {
+    margin-top: 10px;
+}
+.children_l_top {
+    height: 22px;
+
+}
+.children_l_top a {
+    float: right;
+    font-size: 12px;
+    color: #1a6683;
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+}
+.children_l_bottom {
+    height: 310px;
+    border:1px solid #cacaca;
+    border-top: 2px solid #00b0e7;
+}
+.seat {
+    width: 163px;
+    margin-left: 14px;
+    margin-top: 5px;
+    float: left;
+    text-align: center;
+}
+.seat_name {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 6px;
+    color: #333333;
+}
+.seat_age {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999999;
+
+}
+.seat_price {
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #999999;
+}
+.seat_price_now {
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    color: #999999;
+}
+.seat_price_now span {
+    color: #a10000;
+}
+
+/*儿童安全座椅的结束*/
+/*工艺美术品的开始*/
+.art_right {
+    height: 344px; 
+    width: 228px;
+    float: right;
+    border: 1px solid #d8d8d8;
+}
+.art_r_top {
+    height: 28px;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: #fcfcfc;
+    font-size: 12px;
+    padding-left: 15px;
+    color: #4e4e4e;
+    line-height: 28px;
+}
+.art_r_middle {
+    height: 83px;
+    margin-top: 12px;
+}
+.art_r_middle img {
+
+    margin: 2px 7px 0 3px;
+    float: left;
+}
+.art_r_middle span {
+   height: 20px;
+   line-height: 20px;
+   font-size: 12px;
+   color: #777777;
+}
+.art_r_bottom ul {
+    line-height: 22px;
+}
+.art_r_bottom li {
+    font-size: 12px;
+}
+.art_r_bottom a {
+    color: #444444;
+}
+.art_r_bottom span {
+    color: #999999;
+}
+
+/*工艺美术品的结束*/
+/*底部的开始*/
+.footer_top {
+    height: 92px;
+    width: 970px;
+    border-top: 1px solid #dddddd;
+    margin: 0 auto;
+    margin-top: 18px;
+
+}
+.footer_t_inner {
+    height: 82px;
+    border-top: 6px solid #fbfbfb;
+    border-bottom: 4px solid #fbfbfb;  
+}
+.friend_link {
+    width: 69px;
+    height: 82px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 12px;
+    color: #999999;
+    float: left;
+}
+.friend_ceshi {
+    height: 82px;
+    width: 896px;
+    float:left;
+}
+.footer_t_inner ul {
+
+    margin-top: 17px;
+    line-height: 26px;
+    float: left;
+    font-size: 12px;
+}
+
+.footer_t_inner li {
+    float: left;
+    padding-right: 8px;
+}
+
+.footer_t_inner a{
+    color: #666666;
+}
+.footer_bottom {
+    margin: 0 auto;
+    margin-top: 10px;
+    border-top:3px solid #0a7ec3;
+    width: 970px;
+}
+.footer_b_inner {
+    
+    width: 726px;
+    
+    margin: 0 auto;
+    
+} 
+.footer_b_inner li {
+    float: left;
+    line-height: 24px;
+}
+.content a{
+    font-size: 12px;
+    color: #444444;
+    padding: 0 7px;
+}
+.v_line {
+    color: #cccccc;
+}
+.footer_b_inner ul {
+   
+
+    margin-top: 11px;
+}
+.beian {
+    line-height: 24px;
+    text-align: center;
+}
+.beian a{
+    font-size: 12px;
+    color: #444444;
+    padding: 0 7px;
+}
+/*底部的结束*/
+
+.clearfix:after {
+    content: "";
+    display:block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+.clearfix {
+    zoom: 1;
+}
